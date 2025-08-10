@@ -122,4 +122,7 @@ function loop(){
   if(!paused) draw();
   requestAnimationFrame(loop);
 }
+
+export { mapToHexagram, bitsFromIndexBinary };
+
 loop();
